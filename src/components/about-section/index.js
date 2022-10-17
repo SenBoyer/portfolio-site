@@ -8,7 +8,10 @@ const AboutSection = () => {
       <Element id="about-section" name="about">
         <Section5>
           <h1>ABOUT</h1>
-          <PixelGuy src="https://svgshare.com/i/ds3.svg" title="pixelguy" />
+          <PixelGuy
+            src="https://firebasestorage.googleapis.com/v0/b/portfolio-3ad1f.appspot.com/o/ds3.svg?alt=media&token=ca20f218-5007-4724-86bd-2275d9d23beb"
+            title="pixelguy"
+          />
           <p className="about">
             What can a “full-stack web developer” do, you ask? <br />
             <br /> I can conjur a website from nothing into existence, fully
