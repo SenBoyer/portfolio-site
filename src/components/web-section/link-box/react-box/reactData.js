@@ -10,12 +10,12 @@ export const circleObjectOne = {
 
 export const circleObjectTwo = {
   primary: true,
-  topLine: "Website 2",
+  topLine: "CODM Demascus",
   description: "Made with React!",
   imgStart: "",
   img: "",
   start: "",
-  siteUrl: "http://www.yahoo.com",
+  siteUrl: "https://codm-damascus-tracker.herokuapp.com/",
 };
 
 export const circleObjectThree = {
