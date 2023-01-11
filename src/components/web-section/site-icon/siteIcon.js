@@ -1,4 +1,5 @@
 import React from "react";
+import { WrapperBox } from "./siteIcon.styles";
 
 export const Circle = ({
   primary,
@@ -11,11 +12,16 @@ export const Circle = ({
 }) => {
   return (
     <>
-      <div id="site-circle">
-        <a href={siteUrl} rel="noopener noreferrer" src={img}>
-          <div id="circle-title">{topLine}</div>
-        </a>
-      </div>
+      <WrapperBox>
+        <div id="site-circle">
+          <a href={siteUrl} rel="noopener noreferrer">
+            {" "}
+          </a>
+          <div id="circle-text" href={siteUrl}>
+            {topLine}
+          </div>
+        </div>
+      </WrapperBox>
     </>
   );
 };

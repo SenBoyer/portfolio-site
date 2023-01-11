@@ -1,6 +1,8 @@
 import React from "react";
 import { Section1, Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
+import Resume from "../../pages/Resume";
 
 const Navbar = () => {
   return (
@@ -8,20 +10,22 @@ const Navbar = () => {
       <Section1>
         <Nav>
           <Bars />
+          <Link to="/">
+            <li>
+              <Scroll
+                activeClass="active"
+                to="home-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <Link to="/">Home</Link>
+              </Scroll>
+            </li>
+          </Link>
           <li>
-            <Link
-              activeClass="active"
-              to="home-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
+            <Scroll
               activeClass="active"
               to="web-section"
               spy={true}
@@ -30,10 +34,10 @@ const Navbar = () => {
               duration={500}
             >
               Web
-            </Link>
+            </Scroll>
           </li>
           <li>
-            <Link
+            <Scroll
               activeClass="active"
               to="games-section"
               spy={true}
@@ -44,10 +48,10 @@ const Navbar = () => {
               activeClass="some-active-class"
             >
               Games
-            </Link>
+            </Scroll>
           </li>
           <li>
-            <Link
+            <Scroll
               to="about-section"
               spy={true}
               smooth={true}
@@ -56,11 +60,11 @@ const Navbar = () => {
               activeClass="some-active-class"
             >
               About
-            </Link>
+            </Scroll>
           </li>
-          <li id="resume">
-            <a href="http://www.google.com">Resume</a>
-          </li>
+          <Link to="/resume">
+            <li id="resume">Resume</li>
+          </Link>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </Nav>

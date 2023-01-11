@@ -35,7 +35,7 @@ export const Nav = styled.div`
     }
   }
 
-  #resume a {
+  a {
     text-decoration: none;
     color: #d4e0ce;
   }

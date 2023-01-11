@@ -10,7 +10,7 @@ export const circleObjectOne = {
 
 export const circleObjectTwo = {
   primary: true,
-  topLine: "Website 2",
+  topLine: "twitter clone",
   description: "Made with React!",
   imgStart: "",
   img: "",
@@ -20,7 +20,7 @@ export const circleObjectTwo = {
 
 export const circleObjectThree = {
   primary: true,
-  topLine: "Website 3",
+  topLine: "TMZ clone",
   description: "Made with React!",
   imgStart: "",
   img: "",

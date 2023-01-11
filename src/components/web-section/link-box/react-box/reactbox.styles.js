@@ -23,6 +23,7 @@ export const ReactContainer = styled.div`
   }
 
   a {
+    text-decoration: none;
     display: flex;
     border-radius: 50%;
     height: 10rem;
@@ -61,25 +62,33 @@ export const ReactContainer = styled.div`
     background-position: top;
   }
 
-  #wordle #circle-title {
-    margin-left: 47px;
-    font-size: 21px;
+  #wordle #circle-text {
+    left: 50px;
+    top: 64px;
+    font-size: 1.6rem;
     color: #dbe8d4;
     font-family: "Josefin Sans", sans-serif;
-    text-decoration: none;
   }
 
   #codm a {
     background-image: url(https://i.imgur.com/dV1O2S4.png);
     background-position: top;
+    background-position-y: 10px;
   }
 
-  #codm #circle-title {
-    margin-left: 36px;
-    font-size: 21px;
-    color: #dbe8d4;
-    font-family: "Josefin Sans", sans-serif;
-    text-decoration: none;
+  #codm a:hover {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+  }
+
+  #codm #circle-text {
+    top: 22px;
+    left: 47px;
+    font-size: 1.6rem;
+    color: #ffffff;
   }
 
   #senflix a {
@@ -93,12 +102,12 @@ export const ReactContainer = styled.div`
     background-position-y: 8px;
   }
 
-  #senflix #circle-title {
-    margin-left: 36px;
-    font-size: 21px;
+  #senflix #circle-text {
+    margin-left: 47px;
+    left: 2px;
+    top: 64px;
+    font-size: 1.6rem;
     color: #dbe8d4;
-    font-family: "Josefin Sans", sans-serif;
-    text-decoration: none;
   }
 
   /* ---------CELL PHONES--------- */

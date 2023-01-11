@@ -1,47 +1,45 @@
 import styled from "styled-components";
 
 export const WrapperBox = styled.div`
-  /* display: flex;
-  justify-content: space-between;
-  width: 70%;
-  a {
-    display: flex;
-    border-radius: 50%;
-    height: 10rem;
-    width: 10rem;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: calc(100% / 5);
-    flex-shrink: 0;
-    margin: 0px 10px;
+  #site-circle {
+    position: relative;
+    width: fit-content;
 
-    @media screen and (min-width: 967px) and (max-width: 1127px) {
-      a {
-        flex-basis: calc(100% / 3);
-      }
+    a {
+      display: inline-block;
+      text-decoration: none;
     }
+  }
 
-    @media screen and (max-width: 967px) {
-      a {
-        flex-basis: calc(100% / 2);
-      }
-    }
+  #site-circle #circle-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 0px; */
+    -webkit-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+  }
 
-    &:hover {
-      background-color: red;
-    }
-  } */
+  #site-circle:hover a {
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-filter: blur(1.5px);
+    -moz-filter: blur(1.5px);
+    -ms-filter: blur(1.5px);
+    -o-filter: blur(1.5px);
+    filter: blur(1.5px);
+    transform: scale(1.03);
+  }
+
+  #site-circle:hover #circle-text {
+    -webkit-opacity: 1;
+    opacity: 1;
+  }
 `;
-
-// export const StyledLinkBox = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   width: 100%;
-//   height: fit-content;
-
-//   div {
-//     border-radius: 50%;
-//     background-color: white;
-//   }
-// `;

@@ -21,13 +21,11 @@ export const VueContainer = styled.div`
     background-size: 195px;
   }
 
-  #finstagram #circle-title{
-    margin-left: 18px;
-    font-size: 21px;
+  #finstagram #circle-text{
     color: #222733;
-    font-family: "Josefin Sans",sans-serif;
-    -webkit-text-decoration: none;
-    text-decoration: none;
+    font-size: 1.6rem;
+    top: 67px;
+    left: 27px;
   }
 
    h1 {

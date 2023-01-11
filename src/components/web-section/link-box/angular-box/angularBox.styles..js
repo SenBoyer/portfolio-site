@@ -58,13 +58,11 @@ export const DjangoContainer = styled.div`
     background-size: 205px;
   }
 
-  #rest-countries #circle-title {
-    margin-left: 47px;
-    font-size: 21px;
+  #rest-countries #circle-text {
+    left: 36px;
+    top: 43px;
+    font-size: 1.6rem;
     color: #000000;
-    font-family: "Josefin Sans", sans-serif;
-    -webkit-text-decoration: none;
-    text-decoration: none;
   }
   /* ---------CELL PHONES--------- */
 
