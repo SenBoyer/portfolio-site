@@ -62,6 +62,38 @@ export const ReactContainer = styled.div`
   }
 
   #wordle #circle-title {
+    margin-left: 47px;
+    font-size: 21px;
+    color: #dbe8d4;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+  }
+
+  #codm a {
+    background-image: url(https://i.imgur.com/dV1O2S4.png);
+    background-position: top;
+  }
+
+  #codm #circle-title {
+    margin-left: 36px;
+    font-size: 21px;
+    color: #dbe8d4;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+  }
+
+  #senflix a {
+    /* Firefox
+    background-image: url("https://i.imgur.com/5lmpIb3.png");
+    background-position-x: -2px; */
+
+    /* Chrome */
+    background-image: url(https://i.imgur.com/5lmpIb3.png);
+    background-position-x: 7px;
+    background-position-y: 8px;
+  }
+
+  #senflix #circle-title {
     margin-left: 36px;
     font-size: 21px;
     color: #dbe8d4;

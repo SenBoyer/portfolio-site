@@ -1,11 +1,11 @@
 export const circleObjectOne = {
   primary: true,
-  topLine: "Website 1",
-  description: "Made with React!",
+  topLine: "Simple Turn",
+  description: "",
   imgStart: "",
   img: "",
   start: "",
-  siteUrl: "http://www.google.com",
+  siteUrl: "https://github.com/SenBoyer/Simple-Turn",
 };
 
 export const circleObjectTwo = {

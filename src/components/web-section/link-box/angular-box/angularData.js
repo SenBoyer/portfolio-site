@@ -1,11 +1,11 @@
 export const circleObjectOne = {
   primary: true,
-  topLine: "Netflix Clone",
-  description: "Made with React!",
+  topLine: "Rest Countries API",
+  description: "",
   imgStart: "",
   img: "",
   start: "",
-  siteUrl: "http://www.google.com",
+  siteUrl: "https://angular-fmentor-countryapi.web.app/",
 };
 
 export const circleObjectTwo = {

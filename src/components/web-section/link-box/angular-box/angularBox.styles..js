@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { SiDjango } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
 
-export const DjangoLogo = styled(SiDjango)`
+export const DjangoLogo = styled(FaAngular)`
   height: 4rem;
   width: 4rem;
   margin: 0 100px;
-  color: #2aa473;
+  color: #bd002e;
 `;
 
 export const DjangoContainer = styled.div`
@@ -48,10 +48,24 @@ export const DjangoContainer = styled.div`
     }
 
     &:hover {
-      outline: 3px solid #2aa473;
+      outline: 3px solid #bd002e;
     }
   }
 
+  #rest-countries a {
+    background-image: url(https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg);
+    background-position-x: -18px;
+    background-size: 205px;
+  }
+
+  #rest-countries #circle-title {
+    margin-left: 47px;
+    font-size: 21px;
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
   /* ---------CELL PHONES--------- */
 
   @media screen and (max-width: 767px) {

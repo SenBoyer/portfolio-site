@@ -18,6 +18,7 @@ export const VueContainer = styled.div`
   #finstagram a{
     background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-3ad1f.appspot.com/o/Instagram-Logo-Icon-small.png?alt=media&token=4879529a-1c1e-4838-a11b-a7c1cc1d3a2c);
     background-position: center;
+    background-size: 195px;
   }
 
   #finstagram #circle-title{

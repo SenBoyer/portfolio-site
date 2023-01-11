@@ -36,6 +36,49 @@ export const Section5 = styled.section`
       text-align: center;
     }
   }
+
+  .ccp {
+    display: flex;
+    align-self: flex-start;
+
+    #title {
+      padding-top: 5px;
+    }
+  }
+
+  a {
+    display: flex;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-image: url("https://i.imgur.com/3dwYnus.png");
+    background-size: 45px;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: calc(100% / 3);
+    flex-shrink: 0;
+    margin: 0px 10px;
+
+    &:hover {
+      outline: 2px solid purple;
+    }
+
+    &::nth-child(1) {
+      background-color: black;
+    }
+  }
+
+  @media screen and (min-width: 967px) and (max-width: 1127px) {
+    a {
+      flex-basis: calc(100% / 3);
+    }
+  }
+
+  @media screen and (max-width: 967px) {
+    a {
+      flex-basis: calc(100% / 2);
+    }
+  }
 `;
 
 export const PixelGuy = styled.img`

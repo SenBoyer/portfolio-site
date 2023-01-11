@@ -1,7 +1,7 @@
 import React from "react";
 import { WrapperBox } from "./LinkBox.style";
 import ReactBox from "../link-box/react-box/reactBox";
-import DjangoBox from "../link-box/django-box/djangoBox";
+import AngularBox from "../link-box/angular-box/angularBox";
 import Vue3Box from "../link-box/vue-box/vueBox";
 
 const LinkBox = () => {
@@ -9,13 +9,13 @@ const LinkBox = () => {
     <>
       <WrapperBox>
         <ReactBox />
-        <DjangoBox />
+        <AngularBox />
         <Vue3Box />
       </WrapperBox>
 
       {/* <WrapperBox>
         <ReactBox />
-        <DjangoBox />
+        <AngularBox />
         <VueJSBox />
       </WrapperBox> */}
     </>

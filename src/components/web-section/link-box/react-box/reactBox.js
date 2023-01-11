@@ -15,8 +15,12 @@ const ReactBox = () => {
         <div id="wordle">
           <Circle {...circleObjectOne} />
         </div>
-        <Circle {...circleObjectTwo} />
-        <Circle {...circleObjectThree} />
+        <div id="codm">
+          <Circle {...circleObjectTwo} />
+        </div>
+        <div id="senflix">
+          <Circle {...circleObjectThree} />
+        </div>
       </ReactContainer>
     </>
   );

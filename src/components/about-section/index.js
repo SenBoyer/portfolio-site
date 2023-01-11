@@ -1,8 +1,19 @@
 import React from "react";
 import { AboutStyled, PixelGuy, Section5 } from "./AboutStyle";
 import { Element } from "react-scroll";
+import { Circle } from "../web-section/site-icon/siteIcon";
 
 const AboutSection = () => {
+  const saintsRow = {
+    primary: true,
+    topLine: "Wordle",
+    description: "Made with React!",
+    imgStart: "",
+    img: "",
+    start: "",
+    siteUrl: "https://senecaboyer0.tripod.com/",
+  };
+
   return (
     <>
       <Element id="about-section" name="about">
@@ -39,6 +50,20 @@ const AboutSection = () => {
             one they cross it without hesitation, boldly going into the unknown
             to return richer for it. logo{" "}
           </p>
+          <div className="ccp">
+            <div id="site-circle">
+              <a
+                href="https://senecaboyer0.tripod.com/"
+                rel="noopener noreferrer"
+                onClick={() => window.confirm("You acknowledge I was 15")}
+              >
+                ""
+              </a>
+            </div>
+            <div id="title">
+              Website I made when I was 15 for my Saints Row clan
+            </div>
+          </div>
         </Section5>
       </Element>
     </>

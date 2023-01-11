@@ -3,16 +3,18 @@ import {
   circleObjectOne,
   circleObjectTwo,
   circleObjectThree,
-} from "./djangoData";
+} from "./angularData";
 import { Circle } from "../../site-icon/siteIcon";
-import { DjangoContainer, DjangoLogo } from "./djangobox.styles";
+import { DjangoContainer, DjangoLogo } from "./angularBox.styles.";
 
-const DjangoBox = () => {
+const AngularBox = () => {
   return (
     <>
       <DjangoContainer>
         <DjangoLogo />
-        <Circle {...circleObjectOne} />
+        <div id="rest-countries">
+          <Circle {...circleObjectOne} />
+        </div>
         <Circle {...circleObjectTwo} />
         <Circle {...circleObjectThree} />
       </DjangoContainer>
@@ -20,4 +22,4 @@ const DjangoBox = () => {
   );
 };
 
-export default DjangoBox;
+export default AngularBox;

@@ -17,21 +17,34 @@ export const WrapperBox = styled.div`
     flex-shrink: 0;
     margin: 0px 10px;
 
-    @media screen and (min-width: 967px) and (max-width: 1127px) {
+    /* @media screen and (min-width: 967px) and (max-width: 1127px) {
       a {
         flex-basis: calc(100% / 2);
       }
-    }
+    } */
 
-    @media screen and (max-width: 967px) {
+    /* @media screen and (max-width: 967px) {
       a {
         flex-basis: calc(100% / 2);
       }
-    }
+    } */
 
     &:hover {
       background-color: red;
     }
+  }
+
+  #simple-turn a {
+  }
+
+  #simple-turn #circle-title {
+    margin-left: 12px;
+    font-size: 21px;
+    color: #dbe8d4;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-align: center;
   }
 `;
 

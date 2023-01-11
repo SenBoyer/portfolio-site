@@ -20,12 +20,12 @@ export const circleObjectTwo = {
 
 export const circleObjectThree = {
   primary: true,
-  topLine: "Website 3",
+  topLine: "",
   description: "Made with React!",
   imgStart: "",
   img: "",
   start: "",
-  siteUrl: "http://www.duckduckgo.com",
+  siteUrl: "https://senboyer.github.io/netflix-clone-front/",
 };
 
 export const circleObjectFour = {
