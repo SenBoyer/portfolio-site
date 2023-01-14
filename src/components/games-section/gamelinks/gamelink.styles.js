@@ -16,6 +16,12 @@ export const WrapperBox = styled.div`
     flex-basis: calc(100% / 2);
     flex-shrink: 0;
     margin: 0px 10px;
+  }
+
+  #simple-turn a {
+    background-image: url(https://i.imgur.com/2LhKTjy.png);
+    background-size: 260px;
+    background-position: center;}
 
     /* @media screen and (min-width: 967px) and (max-width: 1127px) {
       a {
@@ -29,9 +35,6 @@ export const WrapperBox = styled.div`
       }
     } */
 
-    &:hover {
-      background-color: red;
-    }
   }
 
   #simple-turn a {

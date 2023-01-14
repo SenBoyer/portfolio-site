@@ -1,8 +1,7 @@
 import React from "react";
-import { Section1, Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
+import { Section1, Nav, Bars } from "./NavbarElements";
 import { Link as Scroll } from "react-scroll";
 import { Link } from "react-router-dom";
-import Resume from "../../pages/Resume";
 
 const Navbar = () => {
   return (
@@ -45,7 +44,6 @@ const Navbar = () => {
               offset={-70}
               duration={500}
               className="games"
-              activeClass="some-active-class"
             >
               Games
             </Scroll>

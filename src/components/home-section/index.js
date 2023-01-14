@@ -1,10 +1,9 @@
 import { React } from "react";
-import { HomeStyled, Section2 } from "./HomeStyle";
-import MainCoin from "./testing/testing";
+import { Section2 } from "./HomeStyle";
 import { Element } from "react-scroll";
 import Coin from "./image-coin/imageCoin";
 
-const HomeSection = () => {
+const HomeSection = ({ setWantsBubbles, wantsBubbles }) => {
   return (
     <>
       <Element id="home-section" name="home">
@@ -13,7 +12,14 @@ const HomeSection = () => {
           <p className="mission-statement">
             MISSION TO BECOME FULL-STACK WEB DEVELOPER
           </p>
-          <Coin />
+          <div
+            id="coin-clicker"
+            onClick={() => {
+              setWantsBubbles(!wantsBubbles);
+            }}
+          >
+            <Coin />
+          </div>
           <p className="description">
             For over a decade, I have studied and inscribed the sacred runes and
             performed the arcane rituals that breathe life into the realm of the

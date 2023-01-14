@@ -1,11 +1,7 @@
-import { React, useState } from "react";
+import { React } from "react";
 import { CoinStyled } from "./coin.style";
 
 const Coin = () => {
-  const [image, setImage] = useState(
-    "gs://finstagram-3585f.appspot.com/FirebasePixelFace.png"
-  );
-
   return (
     <>
       <CoinStyled>
