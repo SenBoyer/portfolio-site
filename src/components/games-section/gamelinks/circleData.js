@@ -10,7 +10,7 @@ export const circleObjectOne = {
 
 export const circleObjectTwo = {
   primary: true,
-  topLine: "Website 2",
+  topLine: "High Noon 2 (Coming Soon)",
   description: "Made with React!",
   imgStart: "",
   img: "",

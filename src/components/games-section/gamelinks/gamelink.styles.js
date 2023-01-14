@@ -37,8 +37,6 @@ export const WrapperBox = styled.div`
 
   }
 
-  #simple-turn a {
-  }
 
   #simple-turn #circle-title {
     margin-left: 12px;
@@ -48,6 +46,12 @@ export const WrapperBox = styled.div`
     -webkit-text-decoration: none;
     text-decoration: none;
     text-align: center;
+  }
+
+  #high-noon #circle-title {
+    left: 20px;
+    top: 45px;
+    font-size: 22px;
   }
 `;
 

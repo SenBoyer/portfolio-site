@@ -24,7 +24,9 @@ const GameSection = () => {
             <div id="simple-turn">
               <Circle {...circleObjectOne} />
             </div>
-            <Circle {...circleObjectTwo} />
+            <div id="high-noon">
+              <Circle {...circleObjectTwo} />
+            </div>
           </WrapperBox>
         </Section4>
       </Element>
