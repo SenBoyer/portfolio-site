@@ -1,45 +1,50 @@
 import styled from "styled-components";
 
 export const WrapperBox = styled.div`
-  #site-circle {
+  .circle {
+    text-decoration: none;
     position: relative;
-    width: fit-content;
-
-    a {
-      display: inline-block;
-      text-decoration: none;
-    }
-  }
-
-  #site-circle #circle-text {
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.6rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    cursor: pointer;
-    /* position: absolute;
-    bottom: 0px; */
-    -webkit-transition: all 200ms ease-out;
-    -o-transition: all 200ms ease-out;
-    transition: all 200ms ease-out;
+    opacity: 1;
+    color: white;
+    transition: all 300ms ease-in-out;
   }
 
-  #site-circle:hover a {
-    -webkit-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-    -webkit-filter: blur(1.5px);
-    -moz-filter: blur(1.5px);
-    -ms-filter: blur(1.5px);
-    -o-filter: blur(1.5px);
-    filter: blur(1.5px);
+  .circle:hover {
     transform: scale(1.03);
   }
 
-  #site-circle:hover #circle-text {
-    -webkit-opacity: 1;
+  .circle-bg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    transition: all 300ms ease-in-out;
+  }
+
+  .circle:hover .circle-bg {
+    filter: blur(1px);
+  }
+
+  .circle-text {
+    display: inline-block;
+    padding: 1em;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+  }
+
+  .circle:hover .circle-text {
     opacity: 1;
   }
 `;

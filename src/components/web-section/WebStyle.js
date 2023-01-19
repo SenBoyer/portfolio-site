@@ -7,6 +7,9 @@ export const Section3 = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    padding-bottom: 250px;
 `;
 
 export const H1 = styled.h1`

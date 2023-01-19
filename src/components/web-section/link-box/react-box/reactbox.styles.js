@@ -57,41 +57,40 @@ export const ReactContainer = styled.div`
     }
   }
 
-  #wordle a {
+  .wordle a {
     background-image: url(https://i.ibb.co/Sd6kP7T/Screenshot-155.png);
     background-position: top;
   }
 
-  #wordle #circle-text {
-    left: 50px;
-    top: 64px;
+  .wordle #circle-text {
+    /* left: 50px;
+    top: 64px; */
     font-size: 1.6rem;
     color: #dbe8d4;
     font-family: "Josefin Sans", sans-serif;
   }
 
-  #codm a {
+  .codm a {
     background-image: url(https://i.imgur.com/dV1O2S4.png);
     background-position: top;
     background-position-y: 10px;
   }
 
-  #codm a:hover {
+  /* #codm a:hover {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -ms-filter: blur(2px);
     -o-filter: blur(2px);
     filter: blur(2px);
-  }
+  } */
 
-  #codm #circle-text {
-    top: 22px;
-    left: 47px;
+  .codm .circle-text {
     font-size: 1.6rem;
-    color: #ffffff;
+    color: white;
+    -webkit-text-stroke: 0.7px black; /* width and color */
   }
 
-  #senflix a {
+  .senflix a {
     /* Firefox
     background-image: url("https://i.imgur.com/5lmpIb3.png");
     background-position-x: -2px; */
@@ -102,10 +101,10 @@ export const ReactContainer = styled.div`
     background-position-y: 8px;
   }
 
-  #senflix #circle-text {
-    margin-left: 47px;
+  .senflix .circle-text {
+    /* margin-left: 47px;
     left: 2px;
-    top: 64px;
+    top: 64px; */
     font-size: 1.6rem;
     color: #dbe8d4;
   }

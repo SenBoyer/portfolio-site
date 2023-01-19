@@ -52,17 +52,18 @@ export const DjangoContainer = styled.div`
     }
   }
 
-  #rest-countries a {
+  .rest-countries a {
     background-image: url(https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg);
     background-position-x: -18px;
     background-size: 205px;
   }
 
-  #rest-countries #circle-text {
-    left: 36px;
-    top: 43px;
+  .rest-countries .circle-text {
+    /* left: 36px;
+    top: 43px; */
     font-size: 1.6rem;
     color: #000000;
+    -webkit-text-stroke: 0.7px white;
   }
   /* ---------CELL PHONES--------- */
 

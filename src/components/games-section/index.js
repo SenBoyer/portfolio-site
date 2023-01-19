@@ -21,10 +21,10 @@ const GameSection = () => {
             <p>Games I've made or am currently making!</p>
           </GameStyled>
           <WrapperBox>
-            <div id="simple-turn">
+            <div className="simple-turn">
               <Circle {...circleObjectOne} />
             </div>
-            <div id="high-noon">
+            <div className="high-noon">
               <Circle {...circleObjectTwo} />
             </div>
           </WrapperBox>

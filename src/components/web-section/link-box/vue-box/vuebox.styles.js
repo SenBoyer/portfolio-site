@@ -15,17 +15,17 @@ export const VueContainer = styled.div`
   width: 26rem;
   height: 26rem;
 
-  #finstagram a{
+  .finstagram a{
     background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-3ad1f.appspot.com/o/Instagram-Logo-Icon-small.png?alt=media&token=4879529a-1c1e-4838-a11b-a7c1cc1d3a2c);
     background-position: center;
     background-size: 195px;
   }
 
-  #finstagram #circle-text{
+  .finstagram .circle-text{
     color: #222733;
     font-size: 1.6rem;
-    top: 67px;
-    left: 27px;
+    /* top: 67px;
+    left: 27px; */
   }
 
    h1 {

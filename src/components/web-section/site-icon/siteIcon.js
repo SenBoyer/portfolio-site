@@ -13,13 +13,11 @@ export const Circle = ({
   return (
     <>
       <WrapperBox>
-        <div id="site-circle">
-          <a href={siteUrl} rel="noopener noreferrer">
-            {" "}
+        <div className="site-circle">
+          <a className="circle" href={siteUrl} rel="noopener noreferrer">
+            <span className="circle-text">{topLine}</span>
+            <span className="circle-bg"></span>
           </a>
-          <div id="circle-text" href={siteUrl}>
-            {topLine}
-          </div>
         </div>
       </WrapperBox>
     </>

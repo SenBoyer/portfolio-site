@@ -12,13 +12,13 @@ const ReactBox = () => {
     <>
       <ReactContainer>
         <ReactLogo />
-        <div id="wordle">
+        <div className="wordle">
           <Circle {...circleObjectOne} />
         </div>
-        <div id="codm">
+        <div className="codm">
           <Circle {...circleObjectTwo} />
         </div>
-        <div id="senflix">
+        <div className="senflix">
           <Circle {...circleObjectThree} />
         </div>
       </ReactContainer>

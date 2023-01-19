@@ -8,11 +8,15 @@ const Vue3Box = () => {
     <>
       <VueContainer>
         <VueLogo />
-        <div id="finstagram">
+        <div className="finstagram">
           <Circle {...circleObjectOne} />
         </div>
-        <Circle {...circleObjectTwo} />
-        <Circle {...circleObjectThree} />
+        <div className="money">
+          <Circle {...circleObjectTwo} />
+        </div>
+        <div className="tmz">
+          <Circle {...circleObjectThree} />
+        </div>
       </VueContainer>
     </>
   );

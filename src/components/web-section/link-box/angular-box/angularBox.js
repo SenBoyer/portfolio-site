@@ -12,7 +12,7 @@ const AngularBox = () => {
     <>
       <DjangoContainer>
         <DjangoLogo />
-        <div id="rest-countries">
+        <div className="rest-countries">
           <Circle {...circleObjectOne} />
         </div>
         <Circle {...circleObjectTwo} />

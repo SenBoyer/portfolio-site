@@ -18,7 +18,7 @@ export const WrapperBox = styled.div`
     margin: 0px 10px;
   }
 
-  #simple-turn a {
+  .simple-turn .circle {
     background-image: url(https://i.imgur.com/2LhKTjy.png);
     background-size: 260px;
     background-position: center;}
@@ -39,7 +39,7 @@ export const WrapperBox = styled.div`
 
 
   #simple-turn #circle-title {
-    margin-left: 12px;
+    color: white;
     font-size: 21px;
     color: #dbe8d4;
     font-family: "Josefin Sans", sans-serif;
@@ -48,10 +48,11 @@ export const WrapperBox = styled.div`
     text-align: center;
   }
 
-  #high-noon #circle-title {
-    left: 20px;
-    top: 45px;
+  .high-noon .circle-text {
+    /* left: 20px;
+    top: 45px; */
     font-size: 22px;
+    color: black;
   }
 `;
 

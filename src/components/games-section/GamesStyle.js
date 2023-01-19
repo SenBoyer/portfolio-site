@@ -10,7 +10,7 @@ export const Section4 = styled.section`
   align-items: center;
 
   @media screen and (max-width: 760px) {
-    padding-top: 250px;
+    padding-bottom: 150px;
   }
 `;
 
