@@ -10,17 +10,17 @@ export const circleObjectOne = {
 
 export const circleObjectTwo = {
   primary: true,
-  topLine: "twitter clone",
-  description: "Made with React!",
+  topLine: "Stripe Payment System",
+  description: "Checkout with Stripe!",
   imgStart: "",
-  img: "",
+  img: "gs://portfolio-3ad1f.appspot.com/stripe.png",
   start: "",
-  siteUrl: "http://www.yahoo.com",
+  siteUrl: "https://thriving-alpaca-cefda9.netlify.app/",
 };
 
 export const circleObjectThree = {
   primary: true,
-  topLine: "TMZ clone",
+  topLine: "TMZ video clone",
   description: "Made with React!",
   imgStart: "",
   img: "",

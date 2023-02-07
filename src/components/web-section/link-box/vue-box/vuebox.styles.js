@@ -28,6 +28,13 @@ export const VueContainer = styled.div`
     left: 27px; */
   }
 
+  .money a{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-3ad1f.appspot.com/o/stripe.png?alt=media&token=ee16c14c-20b1-468b-9ab3-1fe17557939d);
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+  }
+
    h1 {
     width: 100%;
     margin-bottom: 2rem;
