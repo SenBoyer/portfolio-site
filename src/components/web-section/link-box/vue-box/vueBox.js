@@ -14,7 +14,7 @@ const Vue3Box = () => {
         <div className="money">
           <Circle {...circleObjectTwo} />
         </div>
-        <div className="tmz">
+        <div className="rps">
           <Circle {...circleObjectThree} />
         </div>
       </VueContainer>

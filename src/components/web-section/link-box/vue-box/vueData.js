@@ -3,7 +3,7 @@ export const circleObjectOne = {
   topLine: "Finstagram",
   description: "Fake Instagram!",
   imgStart: "",
-  img: "gs://finstagram-3585f.appspot.com/FirebaseWordle.png",
+  img: "",
   start: "",
   siteUrl: "https://finstagram-3585f.web.app/#/",
 };
@@ -13,19 +13,19 @@ export const circleObjectTwo = {
   topLine: "Stripe Payment System",
   description: "Checkout with Stripe!",
   imgStart: "",
-  img: "gs://portfolio-3ad1f.appspot.com/stripe.png",
+  img: "",
   start: "",
   siteUrl: "https://thriving-alpaca-cefda9.netlify.app/",
 };
 
 export const circleObjectThree = {
   primary: true,
-  topLine: "TMZ video clone",
-  description: "Made with React!",
+  topLine: "Rock Paper Scissors!",
+  description: "Made with Vue - Pinia - Tailwind",
   imgStart: "",
   img: "",
   start: "",
-  siteUrl: "http://www.duckduckgo.com",
+  siteUrl: "https://magnificent-starship-066812.netlify.app/",
 };
 
 export const circleObjectFour = {

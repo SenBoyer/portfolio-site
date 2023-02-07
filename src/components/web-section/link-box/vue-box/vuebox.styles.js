@@ -35,6 +35,14 @@ export const VueContainer = styled.div`
     background-repeat: no-repeat;
   }
 
+  .rps a{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-3ad1f.appspot.com/o/RPS.png?alt=media&token=8ff61d3f-ac83-44cf-b18c-99ca2036fd98);
+    background-size: 265px;
+    background-repeat: no-repeat;
+    background-position-x: -53px;
+    background-position-y: -46px;
+  }
+
    h1 {
     width: 100%;
     margin-bottom: 2rem;
